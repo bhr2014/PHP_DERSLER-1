@@ -10,11 +10,21 @@ $variable = "Eren CennetKuşu";
 // }
 // -------------
 
-$args1 = 20;
-$args2 = '20';
+// $args1 = 20;
+// $args2 = '20';
+// if($args1 === $args2){
+//     print "esittir";
+// }else{
+//     print "eşit değildir";
+// }
+//-------------------
+$args1 = 30;
+$args2 = 20;
 if($args1 === $args2){
     print "esittir";
-}else{
-    print "eşit değildir";
+}else if($args1 > $args2){
+    print $args1 .' : Büyüktür.';
+}else if($args1 < $args2){
+    print $args1 .' : küçüktür'. $args2;
 }
 ?>
