@@ -153,16 +153,22 @@
 // print_r($array);
 
 //-------------------//
-$array = 
-    [
-        "bilgisayar",
-        "siyah",
-        "kitap",
-        "defter",
-        "Kalem",
-        "Çanta",
-    ];
-    $string = implode(',',$array);
-print_r($string); 
+// $array = 
+//     [
+//         "bilgisayar",
+//         "siyah",
+//         "kitap",
+//         "defter",
+//         "Kalem",
+//         "Çanta",
+//     ];
+//     $string = implode(',',$array);
+// print_r($string); 
+
+
+require_once __DIR__."/config.php";
+
+
+
 
 ?>
